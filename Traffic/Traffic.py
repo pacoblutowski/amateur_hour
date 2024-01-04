@@ -82,7 +82,7 @@ def main():
 
 	def winner_winner():
 		pygame.init()
-		winner_surf = ending_font.render('Congrats Fuck Face!', False, 'black')
+		winner_surf = ending_font.render('Congrats F*ck Face!', False, 'black')
 		winner_surf_rect = winner_surf.get_rect(midtop = (WIDTH//2, HEIGHT//5))
 		screen.blit(banner_border,(banner_rect))
 		pygame.display.update()		
